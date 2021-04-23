@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>趣味</title>
+  <!--icon-->
+  <script src="https://kit.fontawesome.com/60c27c6458.js"></script>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!--slick-->
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" />
+  <!--csshake-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.3/csshake.min.css"
+    integrity="sha512-RliK2gk03WxUELn57ddjWLhEfhUiOZ85VvWLImFy8A7FOPMkF4Z9YGQ3VKX5jpwkEerAL6I0nC+JNeCPrxWBTw=="
+    crossorigin="anonymous" />
+  <!--custom.css-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <a class="navbar-brand" href="index.html">
+        <span><img src="img/logo.png" class="mx-auto d-lg-inline d-none pl-5" width="50%"></span>
+        <span><img src="img/logo.png" class="mx-auto d-inline d-lg-none" width="40%"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adult.html">成人</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="anime.html">動漫</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tv.html">TV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="funny.html">趣味</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="login-icon fas fa-user-circle"></i></a>
+          </li>
+          <li class="switch mt-2"> 
+            <input class="switch-checkbox" id="switchID1" type="checkbox" name="switch-checkbox" checked>
+            <label class="switch-label" for="switchID1">
+                <a href="funny-white.html" class="switch-txt" turnOn="夜"turnOff="日"></a>
+                <a href="funny-white.html" class="switch-Round-btn"></a>  
+            </label>
+          </li>
+          <li class="nav-item dropdown d-md-none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              類型
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">官方嚴選（華籍為主）</a>
+              <a class="dropdown-item" href="#">熱播排行榜（人氣週榜）</a>
+              <a class="dropdown-item" href="#">人氣女優精選</a>
+              <a class="dropdown-item" href="#">日本無碼正妹</a>
+              <a class="dropdown-item" href="#">韓星自拍外流（AI換臉）</a>
+              <a class="dropdown-item" href="#">國產原創精選（中台）</a>
+              <a class="dropdown-item" href="#">東南亞約X自拍</a>
+              <a class="dropdown-item" href="#">歐美超淫巨尻</a>
+            </div>
+          </li>
+            <li class="nav-item dropdown d-md-none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              時間
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">2021</a>
+              <a class="dropdown-item" href="#">2020</a>
+              <a class="dropdown-item" href="#">2019</a>
+              <a class="dropdown-item" href="#">2018</a>
+              <a class="dropdown-item" href="#">2017</a>
+              <a class="dropdown-item" href="#">2016</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown d-md-none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              主題
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">#BIKINI</a>
+              <a class="dropdown-item" href="#">#日本妹</a>
+              <a class="dropdown-item" href="#">#情趣用品試用</a>
+              <a class="dropdown-item" href="#">#全裸</a>
+              <a class="dropdown-item" href="#">#生活</a>
+              <a class="dropdown-item" href="#">#大奶</a>
+              <a class="dropdown-item" href="#">#露臉</a>
+              <a class="dropdown-item" href="#">#巨乳</a>
+              <a class="dropdown-item" href="#">#晚安聊聊</a>
+              <a class="dropdown-item" href="#">#學生妹</a>
+              <a class="dropdown-item" href="#">#SEXY</a>
+              <a class="dropdown-item" href="#">#cosplay</a>
+              <a class="dropdown-item" href="#">#檳榔西施</a>
+              <a class="dropdown-item" href="#">#跳舞</a>
+              <a class="dropdown-item" href="#">#空姐</a>
+              <a class="dropdown-item" href="#">#女僕</a>
+              <a class="dropdown-item" href="#">＃純聊天</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <div class="jumbotron-funny">
+      <div class="container-fluid">
+        <a href="#"><img src="img/news.jpg" class="news-img d-block img-fluid shake" width="15%"></a>
+      </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-2 m-0 p-0 sidebar d-md-block d-none">
+          <ul class="nav flex-column">
+            <li class="nav-link sidebar-title mb-2">
+              瀏覽標籤
+            </li>
+            <li class="nav-link sidebar-label pl-5">
+              | 類型
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">全部</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">官方嚴選(華籍為主）</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">熱播排行榜（人氣週榜）</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">人氣女優精選</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">日本無碼正妹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">韓星自拍外流（AI換臉）</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">國產原創精選（中台）</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">東南亞的X自拍</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">歐美超淫巨究</a>
+            </li>
+            <li class="nav-link sidebar-label pl-5">
+              | 時間
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">全部</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">2021</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">2020</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">2019</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">2018</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">2017</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">2016</a>
+            </li>
+            <li class="nav-link sidebar-label pl-5">
+              | 主題
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">全部</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">#BIKINI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">#日本妹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃情趣用品試用</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃全裸</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃生活</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃大奶</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃露臉</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃巨乳</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃晚安聊聊</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃學生妹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃SEXY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃cosplay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃檳榔西施</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃跳舞</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃空姐</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃女僕</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d" href="#">＃純聊天</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-10 row">
+          <div class="col-md-3 px-2">
+            <div class="video">
+              <img src="img/funny/funny/funny_01.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_02.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_03.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_04.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_05.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_06.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-2">
+            <div class="video">
+              <img src="img/funny/funny/funny_07.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_08.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_09.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_10.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_11.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_12.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-2">
+            <div class="video">
+              <img src="img/funny/funny/funny_13.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_14.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_15.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_16.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_17.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_18.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+          </div>
+          <div class="col-md-3 px-2">
+            <div class="video">
+              <img src="img/funny/funny/funny_19.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_20.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_01.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_02.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_03.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+            <div class="video">
+              <img src="img/funny/funny/funny_04.jpg" class="video-img" width="100%"></a>
+              <div class="video-hover-text"><i class="play-icon fas fa-play"></i></div>
+            </div>
+            <div class="video pt-3">
+              <p class="video-title">深夜綜藝節目</p>
+              <p class="video-text">主持人：佐佐木希</p>
+              <p class="video-text">2021/03/22 <i class="video-icon fas fa-caret-square-right"></i> <span
+                  class="video-number">6666</span></p>
+            </div>
+          </div>
+
+
+          <div class="row mt-5 mx-auto">
+            <ul class="pagination">
+              <li><a href="#">«</a></li>
+              <li><a class="active" href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">6</a></li>
+              <li><a href="#">7</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-center mb-5">
+          <div class="col-lg-4">
+            <p>友情連接</p>
+            <p>娛樂最前線</p>
+            <p>52788電影論壇</p>
+          </div>
+
+          <div class="footer-title col-lg-4">
+            <ul>
+              <li><i class="fab fa-facebook-square"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-youtube"></i></li>
+            </ul>
+            <p>隱私權保護</p>
+            <p>關於直播網</p>
+          </div>
+
+          <div class="col-lg-4">
+            <p>系統公告</p>
+            <p>線上客服</p>
+            <p>服務條款</p>
+          </div>
+        </div>
+        <div class="footer-bottom text-center mt-3">&copy; 2006-2021. HiN et Internet Service by Chunghwa Tieicom, All
+          Rights Reserved</dix>
+        </div>
+    </footer>
+  </main>
+
+  <!--jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--slick-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!--custom.js-->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
